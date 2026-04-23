@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-ads-cli",
+  "version": "0.1.0",
+  "description": "Executable TikTok Marketing API CLI skeleton aligned with tiktok-ads-skills",
+  "type": "module",
+  "bin": {
+    "tiktok-ads": "./bin/tiktok-ads.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/tiktok-ads.js --help"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
